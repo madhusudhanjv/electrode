@@ -5,8 +5,18 @@
 
 ```sh
 $ npm install 
+```
 
+## Start
+
+```
 $ npm start
+```
+
+## Access
+
+```
+$ http://localhost:3000/
 ```
 
 ## License
