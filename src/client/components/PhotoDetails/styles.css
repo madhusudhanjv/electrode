@@ -1,0 +1,48 @@
+.photo-details-container {
+  display: flex;
+  padding: 10px;
+  overflow: auto;
+  flex-flow: row wrap;
+  padding: 10px;
+  position: relative;
+}
+
+.close-icon {
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+
+.launch-icon {
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+
+.launch-icon a,
+.launch-icon a:active,
+.launch-icon a:visited {
+  color: #fff;
+}
+
+.photo-details-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.details {
+  border-top: 1px solid #fff;
+  margin-top: 30px;
+  color: #fff;
+  width: 100%;;
+}
+
+.details > div {
+ height: 30px;
+ line-height: 30px;
+ text-overflow: ellipsis;
+}

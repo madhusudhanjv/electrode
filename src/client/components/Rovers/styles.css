@@ -1,0 +1,74 @@
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.photo-gallery-container {
+  display: flex;
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+  margin: 20px 10px;
+}
+
+.photo-gallery {
+  flex: 1 1 550px;
+}
+
+.photo-details {
+  background-color: #000;
+  position: sticky;
+  top: -550px;
+  flex: 2 1 600px;
+  padding: 10px;
+  height: 1080px;
+}
+
+.rover-form-fields-container {
+  display: flex;
+}
+
+.rover-form-fields-container > div {
+  padding-right: 10px;
+}
+
+.input-camera {
+  width: 300px;
+}
+
+.input-camera input {
+  display: none;
+}
+
+.input-sol {
+  width: 300px;
+}
+
+.header {
+  height: 150px;
+  position: sticky;
+  top: 0;
+  margin: 17px;
+}
+
+.input-container,
+.input-container div {
+  display: flex;
+}
+
+.input-container button:active {
+  border: 1px solid blue;
+}
+
+.error-message {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: red;
+}
+
+.message {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-weight: bold;
+}
