@@ -4,16 +4,11 @@
 ## Installation
 
 ```sh
-$ npm install --save mars-rovers
+$ npm install 
+
+$ npm start
 ```
 
-## Usage
-
-```js
-var marsRovers = require('mars-rovers');
-
-marsRovers('Rainbow');
-```
 ## License
 
 unlicense © [jampala]()

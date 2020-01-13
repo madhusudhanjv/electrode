@@ -2,9 +2,9 @@ import React from "react";
 import PropTypes from "prop-types";
 import { connect } from "react-redux";
 
-import Loader from '../Loader';
-import PhotoDetails from '../PhotoDetails';
-import PhotoGallery from '../PhotoGallery';
+import Loader from '../../components/Loader';
+import PhotoDetails from '../../components/PhotoDetails';
+import PhotoGallery from '../../components/PhotoGallery';
 import RoversFrom from './RoversForm';
 import { fetchPhotos } from "../../actions";
 

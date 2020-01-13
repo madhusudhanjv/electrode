@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Rovers from "./components/rovers";
+import Rovers from "./containers/rovers";
 import { withRouter } from "react-router-dom";
 import { renderRoutes } from "react-router-config";
 
